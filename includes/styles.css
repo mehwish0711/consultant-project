@@ -789,8 +789,106 @@ background-repeat: no-repeat;
                     background-position: center;
 
                 }
-            
-            
+                #request-section{
+                    width:100%;
+                    height:80vh;
+                    background-color: #202c45;
+                    margin:2vw 0;
+                    padding:2vw 4vw;
+                    display: flex;
+                   
+                }
+                .call-back-section{
+                    width:30%;
+                    height:100%;
+                    padding:2vw;
+                    color:white;
+                    
+                }
+                .call-back-section h2{
+                    padding:2vw  0;
+                    font-size: 2vw;
+                    font-weight: 600;
+                    position:relative;
+                }
+                .call-back-section h2::after{
+                    position: absolute;
+                    content:"";
+                    background-color: rgb(242, 24, 79);
+                    width: 100px;
+                    height:3px;
+                    margin-top:1.5vw;
+                    display: block;
+                }
+                .call-back-section h4{
+                    padding:2vw 0;
+                    font-size: 1.5vw;
+                    font-weight: 200;
+                }
+                .call-back-section p{
+                    padding:1rem 0;
+                    font-size: 1.3rem;
+                    font-weight: 200;
+                }
+                .call-back-section img{
+                    width:150px;
+                    background-color: #f7f7f7;
+                    margin:2vw 0;
+                    border-radius:10px;
+                    /* object-fit: cover; */
+                    background-position: center;
+                }
+
+                .form-section{
+                    width:70%;
+                    height:100%;
+                   
+                    padding: 4vw;
+                    
+                  
+                    
+                }
+                .row {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+                   
+                    gap:10px;
+                }
+                .row input {
+                    width: 100%;
+                    padding: 2vw;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    background-color: transparent;
+                }
+                textarea {
+                    width: 100%;
+                    height: 100px;
+                    padding: 2vw;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    resize:none;
+                    background-color: transparent;
+                }
+                .submit-btn {
+                    display: block;
+                    width: 30%;
+                    padding: 1.6vw;
+                    background: transparent;
+                    color: white;
+                    border:1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    transition: 1s ease;
+                }
+                .submit-btn:hover {
+                    background: #ccc;
+                    color:#000;
+                    border:1px solid rgb(242, 24, 79);
+
+                }
+        
             
 
                
@@ -1058,7 +1156,7 @@ height:50%;}
            
             min-height:70vh;
             padding:8vw;
-            margin-top:1050px;
+            margin-top:50px;
         }
         .section-heading{
             font-size: 4vw;
@@ -1088,6 +1186,12 @@ height:50%;}
             font-size: 3vw;
             font-weight: 200;
         }
+
+         /*galleries section*/
+       .image-container img{width:100%; }
+              
+
+           
 
         
         
